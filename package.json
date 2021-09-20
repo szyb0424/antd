@@ -7,7 +7,9 @@
     "build": "webpack",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test:unit": "jest --config unit.jest.js"
+    "test:unit": "jest --config unit.jest.js",
+    "test:e2e": "jest --config e2e.jest.js",
+    "test": "npm run test:unit && npm run test:e2e"
   },
   "files": ["dist", "es", "lib"],
   "publishConfig": {

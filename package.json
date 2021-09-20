@@ -1,6 +1,6 @@
 {
   "name": "@yub04/antd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React组件库",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -15,12 +15,19 @@
     "test": "npm run test:unit && npm run test:e2e",
     "compile": "gulp compile"
   },
-  "files": ["dist", "es", "lib"],
+  "files": [
+    "dist",
+    "es",
+    "lib"
+  ],
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.org"
   },
-  "keywords": ["react", "components"],
+  "keywords": [
+    "react",
+    "components"
+  ],
   "author": "yubo",
   "license": "MIT",
   "dependencies": {

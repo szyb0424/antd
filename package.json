@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test:unit": "jest --config unit.jest.js"
   },
   "files": ["dist", "es", "lib"],
   "publishConfig": {

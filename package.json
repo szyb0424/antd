@@ -15,7 +15,7 @@
   "files": ["dist", "es", "lib"],
   "publishConfig": {
     "access": "public",
-    "registry": "http://register.npmjs.org"
+    "registry": "http://registry.npmjs.org"
   },
   "keywords": ["react", "components"],
   "author": "yubo",

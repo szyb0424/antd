@@ -49,7 +49,7 @@ module.exports = {
             },
           },
           {
-            loader: 'postcss-loader', // 添加厂商前缀
+            loader: 'postcss-loader', // 添加厂商前缀 antd
             options: {
               postcssOptions: {
                 plugins: ['autoprefixer'],

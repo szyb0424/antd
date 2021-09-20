@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "React组件库",
   "main": "lib/index.js",
+  "module": "es/index.js",
+  "unpkg": "dist/antd.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "build": "webpack",
     "storybook": "start-storybook -p 6006",
